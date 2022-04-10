@@ -9,7 +9,8 @@ public class Main {
     private static User currentUser;
     private static Scanner scanner = new Scanner(System.in);
     private static Map<Book, Boolean> library = new HashMap<>();
-
+    private static List<Reader> readers = new ArrayList<>();
+    private static List<Admin> admins= new ArrayList<>();
     public static void main(String[] args) {
 
     }
